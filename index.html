@@ -25,15 +25,16 @@
   		<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png"> 
   		<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">   
 
-			<meta name="description" content="Justice Jones' personal portfolio website">
+		<meta name="description" content="Justice Jones' personal portfolio website">
   			
-  			<!-- Open Graph meta tags -->
-  			<meta property="og:type" content="website">
-  			<meta property="og:title" content="Justice Jones | BAIS & Marketing">
-  			<meta property="og:description" content="Projects I have done as a BAIS and Marketing student at the Unviersity of Iowa">
-  			<meta property="og:image" content="https://www.justicesjones.com/images/jjheader.jpg">
-  			<meta property="og:url" content="https://ww.justicesjones.com">
-
+  		<!-- Open Graph meta tags -->
+  		<meta property="og:type" content="website">
+  		<meta property="og:title" content="Justice Jones | BAIS & Marketing">
+  		<meta property="og:description" content="Projects I have done as a BAIS and Marketing student at the Unviersity of Iowa">
+  		<meta property="og:image" content="https://www.justicesjones.com/images/jjheader.jpg">
+  		<meta property="og:url" content="https://ww.justicesjones.com">
+		
+		<link rel="stylesheet" href="cookie-popup.css">	
 	</head>	
 	<body class="is-preload">
 
@@ -95,12 +96,23 @@
 											<div class="content">
 												<h3>Resume</h3>Information about my work and college experiences and a downloadable pdf resume.</p>
 											</div>
-										</article>										
+										</article>	
+										
+										<div id="cookie-popup">
+      										<p>
+        										By using this site you agree to the storing of cookies on your device to
+       											enhance site navigation and to analyze site usage. Learn more about our
+        										<a href="cookie-policy.html">cookie policy</a>.
+      										</p>
+        										<button id="accept-cookies">Accept</button>      							
+    									</div>
+
 										<!-- Footer -->
 										<footer id="footer">
 											<p class="copyright">&copy; Justice Jones, 2025: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 											<p><a href="privacypolicy.html">Privacy Policy</a></p>
 											<p><a href="terms.html">Terms & Conditions</a></p>
+											
 										</footer>
 									</div>
 								</section>							
@@ -186,6 +198,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		
+		<script src="cookie-popup.js"></script>
 	</body>
 </html>
