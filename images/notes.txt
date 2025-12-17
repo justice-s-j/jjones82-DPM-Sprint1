@@ -5,3 +5,26 @@
     										</figcaption>
 									</figure>
 </html>
+
+
+										<article>
+											<span class="icon fa-gem"></span>
+											<div class="content">
+												<h3>About Me</h3>
+												<p>Learn a little bit about me, find out where I grew up and what I am intersted in.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-paper-plane"></span>
+											<div class="content">
+												<h3>My Projects</h3>
+												<p>Check out some of the projects I have worked on using various analytical tools and coding languages.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-rocket"></span>
+											<div class="content">
+												<h3>Resume</h3>
+												<p>Information about my work and college experiences and a downloadable pdf resume.</p>
+											</div>
+										</article>	

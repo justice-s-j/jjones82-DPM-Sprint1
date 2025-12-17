@@ -39,6 +39,26 @@ section, summary, time, mark, audio, video {
     text-align: center;
 }
 
+.icon-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.icon-link:hover h3 {
+  text-decoration: underline;
+}
+/* Make whole tiles clickable without link styling */
+.tile-link,
+.tile-link:visited,
+.tile-link:hover,
+.tile-link:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
